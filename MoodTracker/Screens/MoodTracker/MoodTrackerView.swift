@@ -23,8 +23,8 @@ struct MoodTrackerView: View {
                         topTitle
                         IconView(Fcolor: $viewModel.Fcolor, selectedMood: $viewModel.selectedMood)
                         moodSelectionView
-                        NoteView(scrollToBottom: $viewModel.scrollToBottom)
-                            .id("NoteEditor")
+                     //   NoteView(scrollToBottom: $viewModel.scrollToBottom)
+                      //      .id("NoteEditor")
                     }
                     .padding()
                 }
